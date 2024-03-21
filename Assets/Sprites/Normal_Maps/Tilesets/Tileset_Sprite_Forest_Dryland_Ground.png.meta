@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: cf2107bba4d2b25489105bfb5a938b7c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -2}
+        - {x: -1, y: -2}
+        - {x: -3, y: -4}
+        - {x: -3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: 7, y: -1}
+        - {x: 2, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959269ae213e2cd459d2155915900028
+      internalID: 1710502775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce86ac7f0676894b9e4c9dc2809a6d7
+      internalID: -2146344291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -1}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 3, y: -8}
+        - {x: 3, y: -5}
+        - {x: 0, y: -2}
+        - {x: -2, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6db464ad60a7c4a9d14c45deed62cd
+      internalID: 1723773650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 8}
+        - {x: -2, y: 7}
+        - {x: -2, y: 0}
+        - {x: -3, y: -1}
+        - {x: -4, y: -3}
+        - {x: -4, y: -7}
+        - {x: -3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b721ddf8ac73cd241885d327cb0f664b
+      internalID: 592557196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dffab1c67660c47adabbe3f2594096
+      internalID: 1877224402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 3, y: -8}
+        - {x: 4, y: -7}
+        - {x: 4, y: -3}
+        - {x: 3, y: -1}
+        - {x: 2, y: 0}
+        - {x: 2, y: 2}
+        - {x: 1, y: 3}
+        - {x: 1, y: 5}
+        - {x: 2, y: 6}
+        - {x: 3, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb6e7f103bce5a4aaaedf84b9523886
+      internalID: -309663091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -6, y: -6}
+        - {x: -5, y: -5}
+        - {x: -1, y: -5}
+        - {x: 0, y: -6}
+        - {x: 2, y: -7}
+        - {x: 3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -1}
+        - {x: 6, y: 4}
+        - {x: 2, y: 7}
+        - {x: -2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fda8034b5ab6949887a7ef29575b53
+      internalID: -1292076245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3537988616935284190bf8eeb8f11e79
+      internalID: 319457288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: 8}
+        - {x: -3, y: 7}
+        - {x: -6, y: 4}
+        - {x: -8, y: -1}
+        - {x: -8, y: -8}
+        - {x: -3, y: -8}
+        - {x: -1, y: -6}
+        - {x: 2, y: -6}
+        - {x: 3, y: -7}
+        - {x: 7, y: -7}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d0250d1a0a58542adae0b8d2162d02
+      internalID: -1596700078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: -4, y: 8}
+        - {x: -4, y: 4}
+        - {x: -3, y: 3}
+        - {x: -3, y: 0}
+        - {x: -2, y: -1}
+        - {x: -2, y: -3}
+        - {x: -1, y: -4}
+        - {x: 1, y: -5}
+        - {x: 3, y: -5}
+        - {x: 4, y: -6}
+        - {x: 8, y: -6}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa334893a0886ec44b25d3790f6a861c
+      internalID: 2085759996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -7, y: -5}
+        - {x: 0, y: -5}
+        - {x: 1, y: -6}
+        - {x: 3, y: -7}
+        - {x: 7, y: -7}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433180fadb1cdf34a8025b9eeb1b37c7
+      internalID: -2055925955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -5, y: -6}
+        - {x: -4, y: -5}
+        - {x: -1, y: -5}
+        - {x: 2, y: -2}
+        - {x: 3, y: 0}
+        - {x: 3, y: 3}
+        - {x: 4, y: 4}
+        - {x: 4, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f8a744d3f797b4b9d56d2b1e119b3f
+      internalID: 943538325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 8}
+        - {x: -2, y: 2}
+        - {x: -3, y: 1}
+        - {x: -3, y: -4}
+        - {x: -5, y: -6}
+        - {x: -5, y: -7}
+        - {x: 0, y: -7}
+        - {x: 3, y: -6}
+        - {x: 6, y: -4}
+        - {x: 8, y: -1}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479e9c599ac26ab4bb36e5f3957f01ea
+      internalID: -248071437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -1}
+        - {x: -6, y: -4}
+        - {x: -3, y: -6}
+        - {x: 0, y: -7}
+        - {x: 5, y: -7}
+        - {x: 5, y: -6}
+        - {x: 3, y: -4}
+        - {x: 3, y: -1}
+        - {x: 2, y: 0}
+        - {x: 2, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc6dcbe6b0387645bef28b93e48e8c6
+      internalID: -1239735792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 8}
+        - {x: -2, y: 6}
+        - {x: -6, y: 2}
+        - {x: -8, y: -3}
+        - {x: -8, y: -8}
+        - {x: 6, y: -8}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8f62e799ad5834483cf32894e8fe92
+      internalID: -321146895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -6}
+        - {x: -6, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -3}
+        - {x: 6, y: 2}
+        - {x: 2, y: 6}
+        - {x: -3, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2720691140b95841a4efedf83221158
+      internalID: -1879530509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e8bfb3a7307a147af66904ffb32982
+      internalID: -1732753653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953dd8e6fbc671e4997d28ad3771038b
+      internalID: 1113195804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: 2}
+        - {x: -6, y: -2}
+        - {x: -3, y: -6}
+        - {x: 2, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: 6, y: 0}
+        - {x: 5, y: 1}
+        - {x: 4, y: 3}
+        - {x: 3, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3673e2f17f4c5f54aa8fd0aea0ba1616
+      internalID: 308834904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 8}
+        - {x: -3, y: 4}
+        - {x: -4, y: 2}
+        - {x: -6, y: 0}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: -3, y: -8}
+        - {x: 2, y: -6}
+        - {x: 6, y: -2}
+        - {x: 8, y: 2}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacbf1ee2f157574eb2401ef32f200a4
+      internalID: 525191150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 6}
+        - {x: -1, y: 7}
+        - {x: -5, y: 7}
+        - {x: -5, y: 6}
+        - {x: -3, y: 4}
+        - {x: -3, y: -1}
+        - {x: -4, y: -3}
+        - {x: -4, y: -7}
+        - {x: -3, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9570130c77f2c0f4b9e3293e99574621
+      internalID: 448998404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tileset_Sprite_Forest_Dryland_Ground_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 7}
+        - {x: -3, y: 6}
+        - {x: -6, y: 4}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 3, y: -8}
+        - {x: 4, y: -7}
+        - {x: 4, y: -3}
+        - {x: 3, y: -1}
+        - {x: 3, y: 4}
+        - {x: 5, y: 6}
+        - {x: 5, y: 7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb50dc1c7dfaa44d9b025b9bf5086f5
+      internalID: -1543093829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: ebfe3d99cc217844e88dacb31450653f, type: 3}
+      name: _NormalMap
+    nameFileIdTable:
+      Tileset_Sprite_Forest_Dryland_Ground_0: 1710502775
+      Tileset_Sprite_Forest_Dryland_Ground_1: -2146344291
+      Tileset_Sprite_Forest_Dryland_Ground_10: -2055925955
+      Tileset_Sprite_Forest_Dryland_Ground_11: 943538325
+      Tileset_Sprite_Forest_Dryland_Ground_12: -248071437
+      Tileset_Sprite_Forest_Dryland_Ground_13: -1239735792
+      Tileset_Sprite_Forest_Dryland_Ground_14: -321146895
+      Tileset_Sprite_Forest_Dryland_Ground_15: -1879530509
+      Tileset_Sprite_Forest_Dryland_Ground_16: -1732753653
+      Tileset_Sprite_Forest_Dryland_Ground_17: 1113195804
+      Tileset_Sprite_Forest_Dryland_Ground_18: 308834904
+      Tileset_Sprite_Forest_Dryland_Ground_19: 525191150
+      Tileset_Sprite_Forest_Dryland_Ground_2: 1723773650
+      Tileset_Sprite_Forest_Dryland_Ground_20: 448998404
+      Tileset_Sprite_Forest_Dryland_Ground_21: -1543093829
+      Tileset_Sprite_Forest_Dryland_Ground_3: 592557196
+      Tileset_Sprite_Forest_Dryland_Ground_4: 1877224402
+      Tileset_Sprite_Forest_Dryland_Ground_5: -309663091
+      Tileset_Sprite_Forest_Dryland_Ground_6: -1292076245
+      Tileset_Sprite_Forest_Dryland_Ground_7: 319457288
+      Tileset_Sprite_Forest_Dryland_Ground_8: -1596700078
+      Tileset_Sprite_Forest_Dryland_Ground_9: 2085759996
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
