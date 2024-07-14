@@ -7,15 +7,17 @@ namespace SublimeFury
 {
     [RequireComponent(typeof(Character))]
     [RequireComponent(typeof(Character_Flip))]
+    [RequireComponent(typeof(Character_Chatting))]
     [RequireComponent(typeof(State_Machine))]
 
     public class Input_Handler : MonoBehaviour
     {
         private Character character;
         private Character_Flip flipper;
+        private Character_Chatting chatter;
         private State_Machine stateMachine;
         private Animator animator;
-
+        
         private bool aimingAllowed;
         private bool toggleCrouch;
         private bool toggleSprint;
@@ -24,6 +26,7 @@ namespace SublimeFury
         {
             TryGetComponent(out character);
             TryGetComponent(out flipper);
+            TryGetComponent(out chatter);
             TryGetComponent(out stateMachine);
             TryGetComponent(out animator);
         }
@@ -65,15 +68,16 @@ namespace SublimeFury
                 aimingAllowed = true;
             }
 
-            if (context.canceled)
+            if (!context.canceled)
             {
-                aimingAllowed = false;
-
-                character.aimDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position) * 10;
-                flipper.CheckFlip(character.aimDirection);
-
-                animator.SetTrigger("Attack");
+                return;
             }
+            aimingAllowed = false;
+
+            character.aimDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position) * 10;
+            flipper.CheckFlip(character.aimDirection);
+
+            animator.SetTrigger("Attack");
         }
 
         public void OnSprint(InputAction.CallbackContext context)
@@ -122,6 +126,11 @@ namespace SublimeFury
         {
             toggleCrouch = !toggleCrouch;
             stateMachine.SwitchSpeed(toggleCrouch ? stateMachine.crouchingSpeed : stateMachine.defaultSpeed);
+        }
+
+        public void OnChat()
+        {
+            chatter.PrintText();
         }
     }
 }

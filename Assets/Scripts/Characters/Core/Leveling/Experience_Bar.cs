@@ -13,23 +13,20 @@ namespace SublimeFury
         [SerializeField] private Transform experienceBarTransform;
 
         private Character character;
-        private Canvas canvas;
         private Slider experienceSlider;
-        private TextMeshPro textMesh;
+        private TextMeshProUGUI textMesh;
 
         private void Start()
         {
             TryGetComponent(out character);
-            canvas = experienceBarTransform.parent.GetComponentInChildren<Canvas>();
-            experienceSlider = experienceBarTransform.GetComponentInChildren<Slider>();
-            textMesh = experienceSlider.GetComponentInChildren<TextMeshPro>();
+            experienceSlider = experienceBarTransform.GetComponent<Slider>();
+            textMesh = experienceSlider.GetComponentInChildren<TextMeshProUGUI>();
         }
 
         private void Update()
         {
-            textMesh.enabled = canvas.enabled;
             experienceSlider.value = (float)character.levelSystem.experience / character.levelSystem.experienceThreshold;
-            textMesh.text = $"{character.levelSystem.experience}/{character.levelSystem.experienceThreshold}";
+            textMesh.SetText($"{character.levelSystem.experience}/{character.levelSystem.experienceThreshold}");
         }
     }
 }

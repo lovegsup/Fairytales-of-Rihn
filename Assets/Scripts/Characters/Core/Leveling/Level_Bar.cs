@@ -12,20 +12,17 @@ namespace SublimeFury
         [SerializeField] private Transform levelBarTransform;
 
         private Character character;
-        private Canvas canvas;
-        private TextMeshPro textMesh;
+        private TextMeshProUGUI textMesh;
 
         private void Start()
         {
             TryGetComponent(out character);
-            canvas = levelBarTransform.parent.GetComponentInChildren<Canvas>();
-            textMesh = levelBarTransform.GetComponentInChildren<TextMeshPro>();
+            textMesh = levelBarTransform.GetComponentInChildren<TextMeshProUGUI>();
         }
 
         private void Update()
         {
-            textMesh.enabled = canvas.enabled;
-            textMesh.text = $"lvl\n{character.levelSystem.level}";
+            textMesh.SetText($"lvl\n{character.levelSystem.level}");
         }
     }
 }

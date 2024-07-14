@@ -53,7 +53,7 @@ namespace SublimeFury
 
         private void CreateDamagePopup(Vector2 targetPosition, Vector2 forceDirection, float totalDamage)
         {
-            damagePopupText.text = totalDamage.ToString();
+            damagePopupText.SetText(totalDamage.ToString());
             damagePopupText.color = isPlayer ? new Color(1, 0.75f, 0.1f) : new Color(0.6f, 0, 0);
             damagePopupScript.movement = forceDirection;
             Instantiate(damagePopup, targetPosition + new Vector2(0, 0.5f), Quaternion.identity);
